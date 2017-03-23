@@ -1,0 +1,254 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	height: 100%;
+}
+.wrapper {
+	min-width: 1024px;
+	max-width: 1024px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 100px;
+	display: flex;
+	box-sizing: border-box;
+}
+.left{
+	display: flex;
+	
+	align-items:center;
+	width: 60%;
+	background: #fff;
+
+}
+
+.logo{
+	position: relative;
+	padding: 10px;
+	width: 15%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	
+
+}
+
+.logo a{
+	display: block;
+	text-decoration: none;
+	color: rgba(86,86,86,0.8);
+	font-size: 22px;
+	font-weight: bold;
+	font-family: Century Gothic;
+}
+.red_img{
+	top: 11px;
+	left: 0px;
+	width: 15px;
+	height: 15px;
+	background-color: rgba(245,5,5,0.7);
+	border-radius: 50%;
+}
+
+.menu{
+	width: 85%;
+	padding: 10px;
+}
+
+.m{
+	display: flex;
+	flex-direction:row;
+	 text-transform: uppercase;
+	font-size: 20px;
+	font-family: "Verdana";
+
+}
+
+.m a{
+	font-weight: 700;
+	align-items: center;
+	padding: 20px 20px 20px 10px;
+	font-size: 15px;
+	font-family: "calibri";
+	color: rgb(151,151,151);
+	text-decoration: none;
+}
+
+.right{
+	display: flex;
+	justify-content:flex-end;
+	align-items: center;
+	width: 40%;
+	background: #fff;
+	padding-right: 35px;
+	
+}
+
+.login{
+	text-transform: uppercase;
+	color: rgb(151,151,151);
+	cursor: pointer; 
+	padding: 0 45px;
+	font-weight: 700;
+
+}
+
+.sign_up{
+	text-transform: uppercase;
+	color: rgb(250,250,250);
+	cursor: pointer;
+	background: rgb(0,220,245); 
+	padding: 5px 15px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 4px 0 #ccc;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+	padding: 0 0 180px;
+	display: flex;
+	justify-content:flex-start;
+	align-items: center;
+
+}
+.main_info{
+	width: 100%;
+}
+.main_info h1{
+	color: rgba(0,0,0,0.7);
+	font-size: 36px;
+	line-height: 38px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+.main_info p{
+	color: rgb(125,125,125);
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.get_started{
+	
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: rgb(250,250,250);
+	cursor: pointer;
+	background: rgb(0,220,245); 
+	padding: 15px 75px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 4px 0 #ccc;
+}
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	
+	margin: -180px auto 0;
+	min-width: 1024px;
+	max-width: 1024px;
+	height: 180px;
+	position: relative;
+	padding: 40px;
+	box-sizing: border-box;
+}
+
+
+.fot_menu{
+	border-top: 1px solid #AFAFAF;
+	display: flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	
+	 
+}
+.f-menu{
+	margin-right: 2%;
+}
+.s-menu{
+	margin-right: 2%;
+}
+
+.fot_menu h3{
+	text-transform: uppercase;
+	padding:15px;
+	font-weight: bold;
+	font-family:"Arial Black";
+	color: rgb(194,194,194);
+}
+
+.fot_menu a{
+	font-weight: 700;
+	align-items: center;
+	color: rgb(132,130,130);
+	text-decoration: none;
+	padding: 10px;
+}
+.fot_menu li{
+	padding: 2px;
+}
