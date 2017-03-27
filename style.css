@@ -51,12 +51,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 	display: block;
 }
 body {
-	font: 12px/18px Arial, sans-serif;
+	font: 12px/18px 'Open Sans', sans-serif;
 	height: 100%;
 }
 *{
 	box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 .wrapper {
 	margin: 0 auto;
 	padding-right: 50px;
@@ -96,17 +97,17 @@ body {
 .logo a{
 	display: block;
 	text-decoration: none;
-	color: rgba(86,86,86,0.8);
-	font-size: 22px;
-	font-weight: bold;
-	font-family: Century Gothic;
+	color: #47495A;
+	font-size: 18px;
+	font-weight: 700;
+	// font-family: Century Gothic;
 }
 .red_img{
-	top: 11px;
-	left: 0px;
-	width: 15px;
-	height: 15px;
-	background-color: rgba(245,5,5,0.7);
+	// top: 11px;
+	// left: 0px;
+	width: 16px;
+	height: 16px;
+	background-color: #F88379;
 	border-radius: 50%;
 }
 
@@ -119,7 +120,7 @@ body {
 	flex-direction:row;
 	 text-transform: uppercase;
 	font-size: 20px;
-	font-family: "Verdana";
+	// font-family: "Verdana";
 
 }
 
@@ -127,9 +128,9 @@ body {
 	font-weight: 700;
 	align-items: center;
 	padding: 20px 20px 20px 10px;
-	font-size: 15px;
-	font-family: "calibri";
-	color: rgb(151,151,151);
+	font-size: 12px;
+	// font-family: "calibri";
+	color:#6B7C93;
 	text-decoration: none;
 }
 
@@ -145,21 +146,24 @@ body {
 
 .login{
 	text-transform: uppercase;
-	color: rgb(151,151,151);
+	color: #6B7C93;
 	cursor: pointer; 
 	padding: 0 45px;
 	font-weight: 700;
+	font-size:12px;
 
 }
 
 .sign_up{
 	text-transform: uppercase;
-	color: rgb(250,250,250);
+	color: #fff;
 	cursor: pointer;
-	background: rgb(0,220,245); 
+	background: #1DC5FF; 
 	padding: 5px 15px;
 	border-radius: 5px;
 	box-shadow: 2px 2px 4px 0 #ccc;
+	font-weight: 700;
+	font-size:12px;
 }
 
 /* Middle
@@ -174,8 +178,9 @@ body {
 	width: 100%;
 }
 .main_info h1{
-	color: rgba(0,0,0,0.7);
-	font-size: 36px;
+	color: #47495A;
+	font-family: "Helvetica Neue";
+	font-size: 34px;
 	line-height: 38px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -183,8 +188,8 @@ body {
 }
 
 .main_info p{
-	color: rgb(125,125,125);
-	font-size: 20px;
+	color: #6B7C93;
+	font-size: 18px;
 	padding-bottom: 20px;
 }
 
@@ -219,8 +224,9 @@ body {
 
 
 .fot_menu{
+
 	width: 100%;
-	border-top: 1px solid #AFAFAF;
+	border-top: 1px solid #ECF1F4;
 	display: flex;
 	flex-direction:row;
 	justify-content:flex-start;
@@ -235,14 +241,14 @@ body {
 	margin: 12px 0;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-family:"Arial Black";
-	color: rgb(194,194,194);
+	// font-family:"Arial Black";
+	color: #6B7C93;
 }
 
 .fot_menu a{
-	font-weight: 700;
+	font-weight: 500;
 	align-items: center;
-	color: rgb(132,130,130);
+	color: #6B7C93;
 	text-decoration: none;
 
 }
