@@ -206,7 +206,7 @@ body {
 }
 .descip{
 	font-family:'Lato', sans-serif;
-
+	margin-top: 12px;
 	cursor: pointer;
 }
 
@@ -215,6 +215,7 @@ body {
   display: inline-block;
   opacity: 0.6;
   cursor: pointer;
+  border-left: 2px solid #fff;
 }
 .descip input[type=radio]{
     display: none;
@@ -229,6 +230,7 @@ body {
 	margin: 12px 0;
 	font-size:15px;
 	font-weight: bold;
+	margin-top: 0;
 }
 .descip p{
 	font-size:14px;
